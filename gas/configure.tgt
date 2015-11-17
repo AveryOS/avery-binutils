@@ -214,6 +214,7 @@ case ${generic_target} in
 
   i386-ibm-aix*)			fmt=coff em=i386aix ;;
   i386-sequent-bsd*)			fmt=aout em=dynix ;;
+  i386-*-avery*)        fmt=elf ;;
   i386-*-beospe*)			fmt=coff em=pe ;;
   i386-*-beos*)				fmt=elf ;;
   i386-*-coff)				fmt=coff ;;
@@ -288,7 +289,7 @@ case ${generic_target} in
 
   i960-*-elf*)				fmt=elf ;;
 
-  ia64-*-elf*)				fmt=elf ;;
+  ia64-*-elf*)        fmt=elf ;;
   ia64-*-*vms*)				fmt=elf em=vms ;;
   ia64-*-aix*)				fmt=elf em=ia64aix ;;
   ia64-*-linux-*)			fmt=elf em=linux ;;
